@@ -5,7 +5,7 @@ output:
     df_print: paged
 ---
 ```{r}
-cereals <- read.csv("~/1 UW Tacoma/560 data mining/data/Data sets/cereals.CSV")
+cereals <- read.csv()
 ```
 
 ```{r}

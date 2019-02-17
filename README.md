@@ -8,6 +8,7 @@ The script uses the Cereals data-set. The dataset contains information related t
 I built a basic model that usese in-built package in R and test the algorithm on the Cereals dataset. 
 
 ## Steps to run the script
-- Download R-server and R-Studio. 
+- Download and install R-server and R-Studio. 
 - Clone the repo 
 - Set the path of the cereals file in the read.CSV
+- Run the applicaton on R-Studio

@@ -33,6 +33,8 @@ cereals_k <- cereals[, -c(1:3,16)]
 ```{r}
 cereals_k[,c(3:14)] <- scale(cereals_k[,c(3:14)])
 dist_cereals_k <- dist(cereals_k)
+
+#run kmeans clustering algorithm and request 5 centers. 
 km1 <- kmeans(cereals_k,5)
 km1
 library(factoextra)
@@ -41,7 +43,7 @@ fviz_cluster(km1, data = cereals_k)
 ```
 
 ```{r}
-#use different libraries for data visualization
+#use libraries for data visualization
 library(cluster)
 library(ggplot2)
 library(factoextra)
@@ -50,7 +52,7 @@ dist_cereals_model1
 ```
 
 ```{r}
-#run kmeans cluster algorithm and give 3 centers. 
+#run kmeans clustering algorithm and request 3 centers. 
 km2 <- kmeans(cereals_k,3)
 km2
 library(factoextra)

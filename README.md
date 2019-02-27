@@ -4,7 +4,7 @@
 https://rpubs.com/devshrestha/Cereals_data_clustering
 
 Using R-Studio to analyze the cereal dataset by clustering data points based on similarity using un-supervised machine learning algorithm. Clustering is based on Kmeans clustering in Stats package. First created 5 centers then 3 clusters to analyze the contents in the different clusters. 
-#### `The R Stats Package`
+#### The R Stats Package
 - This package contains functions for statistical calculations and random number generation. 
 
 - `For a complete list of functions in stats package, visit:`

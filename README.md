@@ -1,4 +1,5 @@
-# KMeansClustering
+## KMeansClustering
+** The script is published in rpubs. Rpubs is a free publising site for r-markdowns and can be implemented from within R-Studio **
 
 https://rpubs.com/devshrestha/Cereals_data_clustering
 
